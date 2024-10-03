@@ -9,9 +9,6 @@ This is the official PyTorch implementation for the [paper](https://arxiv.org/ab
 
 We propose a lightweight condensation framework tailored for recommendation (DConRec), focusing on condensing user-item historical interaction sets. Specifically, we model the discrete user-item interactions via a probabilistic approach and design a pre-augmentation module to incorporate the potential preferences of users into the condensed datasets. While the substantial size of datasets leads to costly optimization, we propose a lightweight policy gradient estimation to accelerate the data synthesis.
 
-<div  align="center"> 
-<img src="asset/intro.png" style="width: 75%"/>
-</div>
 
 ## Requirements
 
