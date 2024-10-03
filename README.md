@@ -45,7 +45,7 @@ Please cite the following paper as the references if you use our codes.
 @article{DConRec2024wu,
     author={Jiahao Wu, Wenqi Fan, Jingfan Chen, Shengcai Liu, Qijiong Liu, Rui He, Qing Li, Ke Tang},
     title={Dataset Condensation for Recommendation},
-    journal={{TKDE}},
+    journal={ArXiv},
     year={2024},
 }
 ```
