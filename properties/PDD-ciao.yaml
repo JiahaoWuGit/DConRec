@@ -1,0 +1,49 @@
+embedding_size: 64
+n_layers: 3
+pseudo_n_layers: 3
+
+reg_weight: 1e-4  #5e-4 #1e-5 #1e-3 #1e-4
+
+ssl_temp: 0.1
+ssl_reg: 7e-07 #1e-7
+hyper_layers: 1
+
+alpha: 1
+
+model_selection: 'BPRMF' #'NGCF' #'LightGCN' #
+ssl_or_not: False
+noise_eps: 0.02
+learning_rate: 5e-4 #7e-4 #2e-3 #1e-3 this is the best learning rate for 0.4dd_rate the BPRMF,condensing_learning_rate
+
+proxy_model_selection: 'BPRMF' #'XSimGCL' #'LightGCN' #'NGCF' #
+proxy_noise_eps: 0.02
+proxy_model_learning_rate: 3e-4  #7e-4 #1e-3 #3e-4 is the best learning rate for BPRMF on ML-20M. LightGCN #7e-4 is the best learning rate for the BPRMF
+proxy_model_ssl: False #whether apply XSimGCL
+
+test_model_selection: 'BPRMF' #'NGCF' #'LightGCN' #'XSimGCL'  #
+test_model_ssl: False
+test_noise_eps: 0.02
+test_model_learning_rate: 5e-4 #7e-4
+
+condensed_learning_rate: 5e-4 #1e-3 #: ml-1m#1.5e-3 #
+
+dataset_distillation: True #True
+outer_lr: 1e-1
+outer_lr_decay: True #True
+outer_lr_decay_rate: 10
+outer_lr_decay_per_epochs: 70
+outer_lr_decay_lower_bound: 1e-4
+dd_rate: 0.25
+supplement_ratio: 0.0
+outer_epochs: 1000 #0
+#test_freq: 5
+expectation_num_k: 4
+vr: False
+convergence_inner: False
+inner_epochs: 1
+
+pseudo: True
+
+pseduo_data_ratio: 0.9 #dianping 0.9 #gowalla-merged 0.3 #ciao 1.8 #0.8
+
+threshold_tail: 10

@@ -1,0 +1,25 @@
+load_col:
+  inter: [user_id, item_id]
+
+user_inter_num_interval: "[0,inf)"
+item_inter_num_interval: "[0,inf)"
+
+reg_weight: 1e-6
+ssl_temp: 0.05
+ssl_reg: 1e-5
+alpha: 1
+#proto_reg: 8e-8
+num_clusters: 1000
+
+ssl_mlp_reg: 1e-8
+
+user_num_clusters: 2500
+item_num_clusters: 2500
+target_reg: 8e-6 #8e-6
+mi_reg: 3000
+noise_eps: 2e-3 #2e-3
+
+
+layer_cl: 3
+sim_ssl_reg: 5e-6
+sim_ssl_tmp: 0.15
