@@ -3,7 +3,7 @@
 Also, named "Condensing Pre-augmented Recommendation Data via Lightweight Policy Gradient Estimation"
 
 This is the official PyTorch implementation for the [paper](https://arxiv.org/abs/2310.01038):
-> TKDE 2024 Jiahao Wu, Wenqi Fan,Jingfan Chen, Shengcai Liu, Qijiong Liu, Rui He, Qing Li, Ke Tang. Dataset Condensation for Recommendation.
+> TKDE 2024. Jiahao Wu, Wenqi Fan,Jingfan Chen, Shengcai Liu, Qijiong Liu, Rui He, Qing Li, Ke Tang. Dataset Condensation for Recommendation.
 
 ## Overview
 
