@@ -39,7 +39,7 @@ Datasets can be downloaded [here](https://drive.google.com/file/d/1haTPUFh7xfaWZ
 
 The implementation is based on the open-source recommendation library [RecBole](https://github.com/RUCAIBox/RecBole).
 
-Please cite the following papers as the references if you use our codes.
+Please cite the following paper as the references if you use our codes.
 
 ```
 @article{DConRec2024wu,
