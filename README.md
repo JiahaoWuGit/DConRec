@@ -40,9 +40,9 @@ Please cite the following paper as the references if you use our codes.
 
 ```
 @article{DConRec2024wu,
-    author={Jiahao Wu, Wenqi Fan, Jingfan Chen, Shengcai Liu, Qijiong Liu, Rui He, Qing Li, Ke Tang},
-    title={Dataset Condensation for Recommendation},
-    journal={ArXiv},
-    year={2024},
-}
+  author={Wu, Jiahao and Fan, Wenqi and Chen, Jingfan and Liu, Shengcai and Liu, Qijiong and He, Rui and Li, Qing and Tang, Ke},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={Condensing Pre-augmented Recommendation Data via Lightweight Policy Gradient Estimation}, 
+  year={2024},
+  pages={1-11}}
 ```
